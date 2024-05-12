@@ -62,7 +62,7 @@ class _SearchPageState extends State<SearchPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 255, 251, 196), // Match the background color of the home page
+      backgroundColor: Color.fromARGB(255, 255, 251, 196),
       appBar: AppBar(
         title: Text(''),
         leading: IconButton(
@@ -71,11 +71,11 @@ class _SearchPageState extends State<SearchPage> {
             Navigator.pop(context);
           },
         ),
-        backgroundColor: Colors.transparent, // Make the app bar transparent
-        elevation: 0, // Remove app bar elevation
+        backgroundColor: Colors.transparent, 
+        elevation: 0, 
       ),
       body: Padding(
-        padding: const EdgeInsets.all(15), // Adjust padding to match the home page layout
+        padding: const EdgeInsets.all(15), 
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
