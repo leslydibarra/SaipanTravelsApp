@@ -1,14 +1,14 @@
 
 import 'package:flutter/material.dart';
 import 'package:saipan/screens/category_card.dart';
-import 'package:saipan/screens/beaches.dart'; // Import the BeachesPage
-import 'package:saipan/screens/hikes.dart'; // Import the HikesPage
+import 'package:saipan/screens/beaches.dart'; 
+import 'package:saipan/screens/hikes.dart'; 
 import 'package:saipan/screens/search.dart';
 import 'package:saipan/screens/tourist_attractions/managaha.dart';
-import 'package:saipan/screens/touristattractions.dart'; // Import the TouristAttractionsPage
-import 'package:saipan/screens/hikes/birdisland.dart'; // Import the BirdIslandPage// Import the ManagahaPage
-import 'package:saipan/screens/hikes/forbiddenisland.dart'; // Import the ForbiddenIslandPage
-import 'package:saipan/widgets/home_bottom_bar.dart'; // Import the HomeBottomBar widget
+import 'package:saipan/screens/touristattractions.dart'; 
+import 'package:saipan/screens/hikes/birdisland.dart'; 
+import 'package:saipan/screens/hikes/forbiddenisland.dart'; 
+import 'package:saipan/widgets/home_bottom_bar.dart'; 
 class PlaceInfo {
   final String image;
   final String name;
