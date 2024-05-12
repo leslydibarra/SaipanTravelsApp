@@ -57,7 +57,7 @@ class _SpinWheelState extends State<SpinWheel> {
           child: Text(
             items[i].toString(),
             style: TextStyle(color: Colors.black),
-             // Set text color to black
+             
           ),
           style: FortuneItemStyle(
             color: Colors.yellow, 
