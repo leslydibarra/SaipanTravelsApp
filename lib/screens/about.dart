@@ -6,7 +6,7 @@ class AboutPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false, // Remove debug banner
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
           title: Text(''),
@@ -20,9 +20,9 @@ class AboutPage extends StatelessWidget {
         body: Container(
           decoration: BoxDecoration(
             image: DecorationImage(
-              image: AssetImage('images/sunset.jpeg'), // Add your image path here
+              image: AssetImage('images/sunset.jpeg'),
               fit: BoxFit.cover,
-              //colorFilter: ColorFilter.mode(Colors.black.withOpacity(0.5), BlendMode.dstATop), // Apply the color filter correctly
+              //colorFilter: ColorFilter.mode(Colors.black.withOpacity(0.5), BlendMode.dstATop), 
             ),
           ),
           child: Padding(
