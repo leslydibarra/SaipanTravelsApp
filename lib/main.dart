@@ -1,7 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:saipan/screens/welcome_screen.dart'; // Import the SystemUiMode
-
+import 'package:saipan/screens/welcome_screen.dart';
 void main() async {
   runApp(MyApp());
 }
