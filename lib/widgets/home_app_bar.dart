@@ -62,7 +62,7 @@ class HomeAppBar extends StatelessWidget {
                 size: 28,
               ),
             ),
-          ), // Added missing closing bracket
+          ), 
         ],
       ),
     );
