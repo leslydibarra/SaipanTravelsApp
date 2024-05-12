@@ -16,10 +16,10 @@ class HikesPage extends StatelessWidget {
       backgroundColor: Color.fromARGB(255, 255, 251, 196),
       body: Expanded(
         child: ListView(
-          scrollDirection: Axis.vertical, // Change scroll direction to vertical
+          scrollDirection: Axis.vertical, 
           children: [
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 20), // Add horizontal padding
+              padding: const EdgeInsets.symmetric(horizontal: 20),
               child: _buildRecommendedBox("images/birdisland.jpeg", "Bird Island", () {
                 Navigator.push(
                   context,
@@ -29,7 +29,7 @@ class HikesPage extends StatelessWidget {
             ),
             SizedBox(height: 10), // Add gap below each box
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 20), // Add horizontal padding
+              padding: const EdgeInsets.symmetric(horizontal: 20), 
               child: _buildRecommendedBox("images/forbiddenisland.jpeg", "Forbidden Island", () {
                 Navigator.push(
                   context,
@@ -39,7 +39,7 @@ class HikesPage extends StatelessWidget {
             ),
             SizedBox(height: 10), // Add gap below each box
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 20), // Add horizontal padding
+              padding: const EdgeInsets.symmetric(horizontal: 20), 
               child: _buildRecommendedBox("images/grotto.jpeg", "Grotto", () {
                 Navigator.push(
                   context,
@@ -47,9 +47,9 @@ class HikesPage extends StatelessWidget {
                 );
               }),
             ),
-            SizedBox(height: 10), // Add gap below each box
+            SizedBox(height: 10), 
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 20), // Add horizontal padding
+              padding: const EdgeInsets.symmetric(horizontal: 20),
               child: _buildRecommendedBox("images/oldmanbythesea.jpeg", "Old Man By The Sea", () {
                 Navigator.push(
                   context,
@@ -59,7 +59,7 @@ class HikesPage extends StatelessWidget {
             ),
             SizedBox(height: 10), // Add gap below each box
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 20), // Add horizontal padding
+              padding: const EdgeInsets.symmetric(horizontal: 20), 
               child: _buildRecommendedBox("images/infinitybeach.jpeg", "Infinity Beach", () {
                 Navigator.push(
                   context,
@@ -73,19 +73,19 @@ class HikesPage extends StatelessWidget {
     );
   }
 
-  // Helper method to build recommended box
+  
 Widget _buildRecommendedBox(String image, String title, VoidCallback press) {
   return InkWell(
     onTap: press,
     child: Container(
-      width: double.infinity, // Adjust the width to fit the screen
-      height: 200, // Adjust the height as needed
-      margin: EdgeInsets.symmetric(vertical: 10), // Add vertical margin
+      width: double.infinity, 
+      height: 200, 
+      margin: EdgeInsets.symmetric(vertical: 10), 
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(20),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(0.5), // Black color with opacity of 0.5
+            color: Colors.black.withOpacity(0.5), 
             spreadRadius: 2,
             blurRadius: 5,
             offset: Offset(0, 2), // changes position of shadow
