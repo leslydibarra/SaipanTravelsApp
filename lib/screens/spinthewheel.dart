@@ -60,7 +60,7 @@ class _SpinWheelState extends State<SpinWheel> {
              // Set text color to black
           ),
           style: FortuneItemStyle(
-            color: Colors.yellow, // Set the color of the wheel
+            color: Colors.yellow, 
           ),
         )
     ],
