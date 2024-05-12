@@ -89,14 +89,14 @@ class _SpinWheelState extends State<SpinWheel> {
     width: 150,
     decoration: BoxDecoration(
       color: Color.fromARGB(255, 251, 246, 255),
-      borderRadius: BorderRadius.circular(20), // Set border radius
+      borderRadius: BorderRadius.circular(20),
     ),
     child: Center(
       child: Text(
         "What's the Bida?",
         style: TextStyle(
-          fontWeight: FontWeight.bold, // Make the text bold
-          fontSize: 16, // Adjust the font size
+          fontWeight: FontWeight.bold, 
+          fontSize: 16, 
         ),
       ),
     ),
