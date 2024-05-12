@@ -8,8 +8,8 @@ class HomeBottomBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BottomNavigationBar(
-      backgroundColor: Colors.white, // Set background color to white
-      currentIndex: 1, // Set the index to 1 for the "Home" tab
+      backgroundColor: Colors.white, 
+      currentIndex: 1, 
       items: [
         BottomNavigationBarItem(
           icon: Icon(Icons.question_mark_rounded, size: 30, color: Colors.black),
