@@ -51,7 +51,7 @@ class WelcomeScreen extends StatelessWidget {
                     letterSpacing: 1.2,
                   ),
                 ),
-                SizedBox(height: 30), // Corrected typo here
+                SizedBox(height: 30), 
                 InkWell(
                   onTap: () {
                     Navigator.push(
@@ -62,7 +62,7 @@ class WelcomeScreen extends StatelessWidget {
                     );
                   },
                   child: Icon(
-                   Icons.arrow_forward ,//arrow_forward_ios,
+                   Icons.arrow_forward ,
                    color: Colors.white,
                       size: 40,
                       ),
