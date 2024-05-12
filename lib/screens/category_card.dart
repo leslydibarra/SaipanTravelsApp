@@ -13,9 +13,9 @@ class CategoryCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(right: 10, bottom: 10), // Added bottom padding
+      padding: const EdgeInsets.only(right: 10, bottom: 10), 
       child: InkWell(
-        onTap: press, // Fixed onTap callback
+        onTap: press, 
         child: Material(
           elevation: 5,
           borderRadius: BorderRadius.circular(100),
