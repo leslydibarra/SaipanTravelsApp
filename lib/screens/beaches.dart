@@ -16,13 +16,13 @@ class BeachesPage extends StatelessWidget {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          SizedBox(height: 20), // Separation between app bar and search section
+          SizedBox(height: 20), 
           Expanded(
             child: ListView(
-              scrollDirection: Axis.vertical, // Change scroll direction to vertical
+              scrollDirection: Axis.vertical,
               children: [
                 Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 20), // Add horizontal padding
+                  padding: const EdgeInsets.symmetric(horizontal: 20), 
                   child: _buildRecommendedBox("images/tankbeach.jpeg", "Tank Beach", () {
                     Navigator.push(
                       context,
@@ -30,9 +30,9 @@ class BeachesPage extends StatelessWidget {
                     );
                   }),
                 ),
-                SizedBox(height: 10), // Add gap below each box
+                SizedBox(height: 10), 
                 Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 20), // Add horizontal padding
+                  padding: const EdgeInsets.symmetric(horizontal: 20), 
                   child: _buildRecommendedBox("images/microbeach.jpeg", "Micro Beach", () {
                     Navigator.push(
                       context,
@@ -40,9 +40,9 @@ class BeachesPage extends StatelessWidget {
                     );
                   }),
                 ),
-                SizedBox(height: 10), // Add gap below each box
+                SizedBox(height: 10), 
                 Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 20), // Add horizontal padding
+                  padding: const EdgeInsets.symmetric(horizontal: 20),
                   child: _buildRecommendedBox("images/marinebeach.jpeg", "Marine Beach", () {
                     Navigator.push(
                       context,
@@ -50,9 +50,9 @@ class BeachesPage extends StatelessWidget {
                     );
                   }),
                 ),
-                SizedBox(height: 10), // Add gap below each box
+                SizedBox(height: 10), 
                 Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 20), // Add horizontal padding
+                  padding: const EdgeInsets.symmetric(horizontal: 20), 
                   child: _buildRecommendedBox("images/ladderbeach.jpeg", "Ladder Beach", () {
                     Navigator.push(
                       context,
@@ -60,9 +60,9 @@ class BeachesPage extends StatelessWidget {
                     );
                   }),
                 ),
-                SizedBox(height: 10), // Add gap below each box
+                SizedBox(height: 10), 
                 Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 20), // Add horizontal padding
+                  padding: const EdgeInsets.symmetric(horizontal: 20), 
                   child: _buildRecommendedBox("images/obyanbeach.jpeg", "Obyan Beach", () {
                     Navigator.push(
                       context,
@@ -78,22 +78,22 @@ class BeachesPage extends StatelessWidget {
     );
   }
 
-  // Helper method to build recommended box
+  
 Widget _buildRecommendedBox(String image, String title, VoidCallback press) {
   return InkWell(
     onTap: press,
     child: Container(
-      width: double.infinity, // Adjust the width to fit the screen
-      height: 200, // Adjust the height as needed
-      margin: EdgeInsets.symmetric(vertical: 10), // Add vertical margin
+      width: double.infinity, 
+      height: 200, 
+      margin: EdgeInsets.symmetric(vertical: 10), 
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(20),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(0.5), // Black color with opacity of 0.5
+            color: Colors.black.withOpacity(0.5), 
             spreadRadius: 2,
             blurRadius: 5,
-            offset: Offset(0, 2), // changes position of shadow
+            offset: Offset(0, 2), 
           ),
         ],
         image: DecorationImage(
@@ -106,7 +106,7 @@ Widget _buildRecommendedBox(String image, String title, VoidCallback press) {
           title,
           style: TextStyle(
             color: Colors.white,
-            fontSize: 18, // Adjust the font size as needed
+            fontSize: 18, 
             fontWeight: FontWeight.bold,
           ),
         ),
