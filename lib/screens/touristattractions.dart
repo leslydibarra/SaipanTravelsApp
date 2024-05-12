@@ -100,7 +100,7 @@ class TouristAttractionsPage extends StatelessWidget {
           title,
           style: TextStyle(
             color: Colors.white,
-            fontSize: 18, // Adjust the font size as needed
+            fontSize: 18, 
             fontWeight: FontWeight.bold,
           ),
         ),
