@@ -27,7 +27,7 @@ class HikesPage extends StatelessWidget {
                 );
               }),
             ),
-            SizedBox(height: 10), // Add gap below each box
+            SizedBox(height: 10), 
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 20), 
               child: _buildRecommendedBox("images/forbiddenisland.jpeg", "Forbidden Island", () {
@@ -37,7 +37,7 @@ class HikesPage extends StatelessWidget {
                 );
               }),
             ),
-            SizedBox(height: 10), // Add gap below each box
+            SizedBox(height: 10), 
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 20), 
               child: _buildRecommendedBox("images/grotto.jpeg", "Grotto", () {
@@ -57,7 +57,7 @@ class HikesPage extends StatelessWidget {
                 );
               }),
             ),
-            SizedBox(height: 10), // Add gap below each box
+            SizedBox(height: 10), 
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 20), 
               child: _buildRecommendedBox("images/infinitybeach.jpeg", "Infinity Beach", () {
@@ -88,7 +88,7 @@ Widget _buildRecommendedBox(String image, String title, VoidCallback press) {
             color: Colors.black.withOpacity(0.5), 
             spreadRadius: 2,
             blurRadius: 5,
-            offset: Offset(0, 2), // changes position of shadow
+            offset: Offset(0, 2),
           ),
         ],
         image: DecorationImage(
@@ -101,7 +101,7 @@ Widget _buildRecommendedBox(String image, String title, VoidCallback press) {
           title,
           style: TextStyle(
             color: Colors.white,
-            fontSize: 18, // Adjust the font size as needed
+            fontSize: 18, 
             fontWeight: FontWeight.bold,
           ),
         ),
